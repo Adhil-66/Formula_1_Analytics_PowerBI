@@ -1,39 +1,33 @@
 # DAX Measures -- Formula 1 Analytics
 
-> Replace the placeholders below with the exact DAX measures used in
-> your Power BI project.
+
 
 ## 1. Total Points
 
 ``` dax
--- Paste your actual DAX formula here
+-- Total Points =
+SUM(driver_standings[total_points])
 ```
 
 ## 2. Total Wins
 
 ``` dax
--- Paste your actual DAX formula here
+-- Total Wins =
+SUM(driver_standings[wins])
 ```
 
 ## 3. Total Podiums
 
 ``` dax
--- Paste your actual DAX formula here
+-- Total Podiums =
+SUM(driver_standings[podiums_est])
 ```
 
-## 4. Total Races
+## 4. world championships
 
 ``` dax
--- Paste your actual DAX formula here
+-- World Championships =
+SUM(driver_standings[is_world_champion])
 ```
 
-## 5. Additional Measures
 
-Add any other measures used in your report. For each measure, include: -
-Measure name - DAX formula - Short explanation of what it calculates
-
-## Notes
-
--   Use the exact measure names and formulas from your Power BI model.
--   Do not include sample formulas unless they are actually used in your
-    dashboard.
