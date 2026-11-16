@@ -48,7 +48,7 @@ Add 3–5 actual insights discovered from your dashboard here.
 - DAX measures documentation
 
 ## 👨‍💻 Author
-
+Mohammed Adil K Y
 Data Analytics Portfolio Project
 
 ## ⭐ Project Status
